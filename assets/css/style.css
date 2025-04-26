@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+/* Navbar Styles */
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Tournament Brackets */
+.tournament-brackets .matchup {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tournament-brackets .team {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.tournament-brackets .vs {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Statistics */
+.stat-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.stat-item h3 {
+    margin: 0;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.stat-item p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Tables */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Form Styles */
+.form-control, .form-select {
+    margin-bottom: 15px;
+}
+
+/* Alert Messages */
+.alert {
+    margin-bottom: 20px;
+}
+
+/* Team Logo and Player Profile Images */
+.img-fluid.rounded-circle {
+    border: 3px solid #dee2e6;
+}
+
+/* Badge Styles */
+.badge {
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 8px 15px;
+    font-weight: 500;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 15px;
+    }
+    
+    .tournament-brackets .matchup {
+        margin-bottom: 15px;
+    }
+}
